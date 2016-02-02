@@ -13,10 +13,10 @@
 	   	}
 		
 		public function saveProfile($profile) {
-			$mail = new Mail("New Veteran Profile", "tmaski45@gmail.com, sfbf6667@yahoo.com, zach.fowler91@gmail.com"); //
+			$mail = new Mail("New Veteran Profile", "tmaski45@gmail.com"); //, sfbf6667@yahoo.com, zach.fowler91@gmail.com
 				
 			$mail->body .= "Name: " . $profile["firstname"] . " " . $profile["lastname"] . "\r\n";
-            $mail->body .= "Spouse's Name: " . $profile["spousefirstname"] . " " . $profile["spouselastname"] . "\r\n";
+            $mail->body .= "Spouse's Name: " . $profile["spousefirstname"] . " " . $profile["spouselastname"];
 			$mail->body .= "DOB: " . $profile["dob"] . "\r\n";
 			$mail->body .= "Address: " . $profile["address"] . "\r\n";
 			$mail->body .= "City: " . $profile["city"] . "\r\n";
