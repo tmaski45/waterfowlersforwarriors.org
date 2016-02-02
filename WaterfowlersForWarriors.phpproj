@@ -180,6 +180,7 @@
     <Folder Include="templates" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\dw_firearms.png" />
     <Content Include="images\FB_IMG_1454118424629.jpg" />
     <Content Include="templates\thankyou2.html" />
   </ItemGroup>
