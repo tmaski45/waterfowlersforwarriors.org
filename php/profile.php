@@ -16,6 +16,7 @@
 			$mail = new Mail("New Veteran Profile", "tmaski45@gmail.com"); //, sfbf6667@yahoo.com, zach.fowler91@gmail.com
 				
 			$mail->body .= "Name: " . $profile["firstname"] . " " . $profile["lastname"] . "\r\n";
+            $mail->body .= "Spouse's Name: " . $profile["spousefirstname"] . " " . $profile["spouselastname"];
 			$mail->body .= "DOB: " . $profile["dob"] . "\r\n";
 			$mail->body .= "Address: " . $profile["address"] . "\r\n";
 			$mail->body .= "City: " . $profile["city"] . "\r\n";
@@ -117,7 +118,6 @@
             if(isset($profile["Out_of_State_Travel"])){
                 $mail->body .= "Interested in Out of State Travel. \r\n";
             }
-
 
 			$mail->body .= "Additional Comments: " . $profile["additionalcomments"] . "\r\n";
 				
