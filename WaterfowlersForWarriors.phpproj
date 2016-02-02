@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>WaterfowlersForWarriors</Name>
+    <ProjectGuid>{1d2396bb-ab2d-4122-9188-6ae4631ed4d8}</ProjectGuid>
+    <RootNamespace>WaterfowlersForWarriors</RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="css\_notes\dwsync.xml" />
+    <Compile Include="css\bootstrap.theme.css" />
+    <Compile Include="docs\_notes\dwsync.xml" />
+    <Compile Include="docs\All_Events_Page.pdf" />
+    <Compile Include="docs\Dinner_Party_Flyer_2014.pdf" />
+    <Compile Include="docs\Run_Event_Registration_2014.docx" />
+    <Compile Include="docs\Run_Event_Registration_2014.pdf" />
+    <Compile Include="gallery\images\_notes\dwsync.xml" />
+    <Compile Include="gallery\images\photo1.JPG" />
+    <Compile Include="gallery\images\photo2.JPG" />
+    <Compile Include="gallery\images\photo3.JPG" />
+    <Compile Include="gallery\images\photo4.JPG" />
+    <Compile Include="gallery\images\photo5.JPG" />
+    <Compile Include="gallery\images\photo6.JPG" />
+    <Compile Include="gallery\images\photo7.JPG" />
+    <Compile Include="gallery\videos\_notes\dwsync.xml" />
+    <Compile Include="gallery\videos\2013_5k.mp4" />
+    <Compile Include="images\_notes\dwsync.xml" />
+    <Compile Include="images\2016-ticket.jpg" />
+    <Compile Include="images\about-wwp.jpg" />
+    <Compile Include="images\AM-Heroes.jpg" />
+    <Compile Include="images\american-flag-banner.jpg" />
+    <Compile Include="images\Americinn_logo.jpg" />
+    <Compile Include="images\andy-fisk.jpg" />
+    <Compile Include="images\belinda-fowler.jpg" />
+    <Compile Include="images\bg_img.jpg" />
+    <Compile Include="images\bg_pattern.jpg" />
+    <Compile Include="images\bg_top.png" />
+    <Compile Include="images\block_bottom.png" />
+    <Compile Include="images\branches.jpg" />
+    <Compile Include="images\bttns.png" />
+    <Compile Include="images\burt-watson-logo.jpg" />
+    <Compile Include="images\cabelas-logo.jpg" />
+    <Compile Include="images\circle.jpg" />
+    <Compile Include="images\duck.png" />
+    <Compile Include="images\facebook_badge3.jpg" />
+    <Compile Include="images\FMA-100LogoNew.jpg" />
+    <Compile Include="images\franks-logo.png" />
+    <Compile Include="images\fwsf-logo.jpg" />
+    <Compile Include="images\FWSF-logo.png" />
+    <Compile Include="images\gandermountain-logo.gif" />
+    <Compile Include="images\glastender-logo_rgb.jpg" />
+    <Compile Include="images\gun-barrel-stickers.jpg" />
+    <Compile Include="images\H-Care_LOGO.gif" />
+    <Compile Include="images\hoodie.jpg" />
+    <Compile Include="images\linwood-beach-marina-logo.jpg" />
+    <Compile Include="images\logo.gif" />
+    <Compile Include="images\logo.jpg" />
+    <Compile Include="images\logo2014.png" />
+    <Compile Include="images\logo_original.jpg" />
+    <Compile Include="images\map.gif" />
+    <Compile Include="images\Patriot Hunt 2014.mp4" />
+    <Compile Include="images\pinups-for-vets-logo.jpg" />
+    <Compile Include="images\pokerrun.png" />
+    <Compile Include="images\profilepicscottkline(1).jpg" />
+    <Compile Include="images\rwb-window-sticker.jpg" />
+    <Compile Include="images\scott-fowler.jpg" />
+    <Compile Include="images\soldier-siloutte.jpg" />
+    <Compile Include="images\t-shirt.jpg" />
+    <Compile Include="images\ticket.jpg" />
+    <Compile Include="images\tmc_bg.png" />
+    <Compile Include="images\tom-gravlin.jpg" />
+    <Compile Include="images\tyler-carlson.png" />
+    <Compile Include="images\warriors.jpg" />
+    <Compile Include="images\warriors.png" />
+    <Compile Include="images\waterfowlers-group.jpg" />
+    <Compile Include="images\waterfowlers_logo.png" />
+    <Compile Include="images\window-stickers.jpg" />
+    <Compile Include="images\zach-fowler.jpg" />
+    <Compile Include="js\_notes\dwsync.xml" />
+    <Compile Include="js\contact.js" />
+    <Compile Include="js\media.js" />
+    <Compile Include="js\pokerrun.js" />
+    <Compile Include="js\profile.js" />
+    <Compile Include="php\Events.php" />
+    <Compile Include="php\_notes\dwsync.xml" />
+    <Compile Include="php\contact.php" />
+    <Compile Include="php\Database.php" />
+    <Compile Include="php\JsonResponse.php" />
+    <Compile Include="php\Mail.php" />
+    <Compile Include="php\OBJ_mysql_result.php" />
+    <Compile Include="php\profile.php" />
+    <Compile Include="Slim\Exception\_notes\dwsync.xml" />
+    <Compile Include="Slim\Exception\Pass.php" />
+    <Compile Include="Slim\Exception\Stop.php" />
+    <Compile Include="Slim\Helper\_notes\dwsync.xml" />
+    <Compile Include="Slim\Helper\Set.php" />
+    <Compile Include="Slim\Http\_notes\dwsync.xml" />
+    <Compile Include="Slim\Http\Cookies.php" />
+    <Compile Include="Slim\Http\Headers.php" />
+    <Compile Include="Slim\Http\Request.php" />
+    <Compile Include="Slim\Http\Response.php" />
+    <Compile Include="Slim\Http\Util.php" />
+    <Compile Include="Slim\Middleware\_notes\dwsync.xml" />
+    <Compile Include="Slim\Middleware\ContentTypes.php" />
+    <Compile Include="Slim\Middleware\Flash.php" />
+    <Compile Include="Slim\Middleware\MethodOverride.php" />
+    <Compile Include="Slim\Middleware\PrettyExceptions.php" />
+    <Compile Include="Slim\Middleware\SessionCookie.php" />
+    <Compile Include="Slim\_notes\dwsync.xml" />
+    <Compile Include="Slim\Environment.php" />
+    <Compile Include="Slim\Log.php" />
+    <Compile Include="Slim\LogWriter.php" />
+    <Compile Include="Slim\Middleware.php" />
+    <Compile Include="Slim\Route.php" />
+    <Compile Include="Slim\Router.php" />
+    <Compile Include="Slim\Slim.php" />
+    <Compile Include="Slim\View.php" />
+    <Compile Include="templates\index1.php" />
+    <Compile Include="templates\_notes\dwsync.xml" />
+    <Compile Include="templates\contact.html" />
+    <Compile Include="templates\dinner.html" />
+    <Compile Include="templates\directors.html" />
+    <Compile Include="templates\directors[Conflict].html" />
+    <Compile Include="templates\donate.html" />
+    <Compile Include="templates\error404.html" />
+    <Compile Include="templates\events.php" />
+    <Compile Include="templates\hunt.html" />
+    <Compile Include="templates\media.php" />
+    <Compile Include="templates\pokerrun.html" />
+    <Compile Include="templates\profile.html" />
+    <Compile Include="templates\run.html" />
+    <Compile Include="templates\store.html" />
+    <Compile Include="templates\template.php" />
+    <Compile Include="templates\thankyou.html" />
+    <Compile Include=".brackets.json" />
+    <Compile Include=".ftpsync_settings" />
+    <Compile Include=".gitattributes" />
+    <Compile Include=".gitignore" />
+    <Compile Include=".htaccess" />
+    <Compile Include="database_config.ini" />
+    <Compile Include="favicon.ico" />
+    <Compile Include="index.php" />
+    <Compile Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\_notes" />
+    <Folder Include="css" />
+    <Folder Include="docs\_notes" />
+    <Folder Include="docs" />
+    <Folder Include="gallery\images\_notes" />
+    <Folder Include="gallery\images" />
+    <Folder Include="gallery\videos\_notes" />
+    <Folder Include="gallery\videos" />
+    <Folder Include="gallery" />
+    <Folder Include="images\_notes" />
+    <Folder Include="images" />
+    <Folder Include="js\_notes" />
+    <Folder Include="js" />
+    <Folder Include="php\_notes" />
+    <Folder Include="php" />
+    <Folder Include="Slim\Exception\_notes" />
+    <Folder Include="Slim\Exception" />
+    <Folder Include="Slim\Helper\_notes" />
+    <Folder Include="Slim\Helper" />
+    <Folder Include="Slim\Http\_notes" />
+    <Folder Include="Slim\Http" />
+    <Folder Include="Slim\Middleware\_notes" />
+    <Folder Include="Slim\Middleware" />
+    <Folder Include="Slim\_notes" />
+    <Folder Include="Slim" />
+    <Folder Include="templates\_notes" />
+    <Folder Include="templates" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\FB_IMG_1454118424629.jpg" />
+    <Content Include="templates\thankyou2.html" />
+  </ItemGroup>
+</Project>
