@@ -85,9 +85,11 @@
                     </form>
 
                     <!--End mc_embed_signup-->
-                    
-                    <p class="no-space-top">© Waterfowlers <?php echo date("Y"); ?></p>
-                </footer>
+
+                <p class="no-space-top">
+                    © Waterfowlers <?php echo date("Y"); ?>
+                </p>
+            </footer>
 			</div>
         </div><!-- end camo wrapper-->
     </body>
